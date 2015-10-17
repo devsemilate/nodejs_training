@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/devsemilate/nodejs_training/issues"
   },
-  "homepage": "https://github.com/devsemilate/nodejs_training"
+  "homepage": "https://github.com/devsemilate/nodejs_training",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-karma": "^0.12.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.11",
+    "karma-cli": "^0.1.1",
+    "karma-jasmine": "^0.3.6"
+  }
 }
