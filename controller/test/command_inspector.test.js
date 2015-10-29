@@ -1,7 +1,11 @@
 describe("string command inspector testing",function(){
-	it("should say correct",function(){
-		var expected = "hello world!";
-		var actualy = command_inspector.say("hello world!");
-		expect(actualy).toBe(expected);
+	[{expected : "hello world!",testvalue : "say hello world!"},
+	{expected : "123456~!@#$%^&*()_+}{",testvalue : "say 123456~!@#$%^&*()_+}{"},
+	{expected : "no command fuck",testvalue : "fuck hello world!"}].forEach(function(testcase){
+		it("do command in right way", function () {
+			var expected = testcase.expected;
+			var actualy = command_inspector.doCommand(testcase.testvalue);
+			expect(actualy).toBe(expected);
+		});
 	});
 });

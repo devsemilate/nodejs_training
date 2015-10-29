@@ -21,6 +21,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-karma": "^0.12.1",
+    "grunt-strip-code": "^0.1.2",
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.11",
     "karma-cli": "^0.1.1",
